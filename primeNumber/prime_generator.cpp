@@ -11,9 +11,8 @@
 
 using namespace std;
 
-int main()
+int prime_generator(int y)
 {
-    int y;
     ofstream myfile;
     myfile.open ("primes.txt");
     
